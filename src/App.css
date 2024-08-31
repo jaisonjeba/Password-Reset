@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.phone-picture {
+  width: 100%;
+height: 400px;
+object-fit: contain;
+}
+
+.phone-container {
+  background-color: white;
+  width: 340px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+}
+
+.phone-name {
+  font-size: 24px;
+  margin: 0px auto;
+
+
+}
+
+.phone-company {
+  font-size: 16px;
+  color: grey;
+  margin-top: 5px;
+}
+
+body {
+  background-image: linear-gradient(to right, #36469fb8, #26d0ce);
+  font-family: Roboto;
+  margin: 16px;
+}
+
+.phone-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  justify-items: center;
+  gap: 10px;
+}
+.login-container{
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+ 
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.signin{
+  margin: 0px;
+}
+.signin:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
